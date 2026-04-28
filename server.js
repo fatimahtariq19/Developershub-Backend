@@ -47,6 +47,7 @@ app.use("/api/inquiries", require("./routes/inquiryRoutes"));
 app.use("/api/bookings", require("./routes/bookingroutes"));
 app.use("/api/categories", require("./routes/categoryRoutes"));
 app.use("/api/jobs", require("./routes/jobRoutes"));
+app.use("/api/warningmessage", require("./routes/warningRoutes"))
 
 // =========================
 // ROOT ROUTE
